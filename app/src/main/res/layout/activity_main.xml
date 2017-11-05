@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.adminjs.jiaosheng11004.MainActivity">
+
+  <com.example.adminjs.jiaosheng11004.TitleView
+      android:id="@+id/titleview_id"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+  </com.example.adminjs.jiaosheng11004.TitleView>
+    <Button
+        android:id="@+id/butt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="扫描二维码"
+        android:layout_below="@+id/yout"/>
+    <com.example.adminjs.jiaosheng11004.view.CustomProgressView
+        android:id="@+id/custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/butt"
+    />
+
+</LinearLayout>
